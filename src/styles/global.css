@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+    --color-resilmesh-black: #1F2638;
     --color-resilmesh-blue: #343F5D;
     --color-resilmesh-magenta: #E4295F;
     --color-resilmesh-light-blue: #44BFEC;
