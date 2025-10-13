@@ -1,0 +1,25 @@
+---
+import Card from '../components/Card.astro';
+---
+
+
+<div class="w-full h-screen flex flex-col items-center justify-start text-center">
+	<img src="/resilmesh-logo-transparent.png" alt="Resilmesh Logo" class="w-full md:w-1/2 lg:w-1/3 h-auto" />
+	<h2 class="text-4xl pb-8 px-4 font-poppins">Welcome to the Resilmesh landing page!</h2>
+	<ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-8">
+		<Card title="SACD" link="http://localhost:4200" description="SACD dashboard and management interface" />
+		<Card title="Wazuh" link="http://localhost:443" description="Open source SIEM" />
+		<Card title="NSE" link="https://localhost:3002" description="Provides a risk assessment status for the network as a whole and allows to drill down to examine risk" />
+		<Card title="NDR" link="http://localhost:3000" description="Provides an anomaly detection and response capability for network traffic." />
+		<Card title="MM (Mitigation Manager)" link="http://localhost:8002" description="Mitigates Alerts, subscribes to specific NATS topic. Uses playbooks tool" />
+		<Card title="Temporal" link="http://localhost:8000" description="Temporal component" />
+		
+		<Card title="Neo4j" link="http://localhost:7474" description="Neo4j graph database web UI" />
+		<Card title="ISIM REST API" link="http://localhost:8000" description="Handles data from the scans (bbdd), several API" />
+		<Card title="ISIM GraphQL" link="http://localhost:4001" description="GraphQL API" />
+
+		<Card title="Resilmesh Docs" link="https://docs.resilmesh.com/" description="Documentation for Resilmesh components" />
+		<Card title="Resilmesh GitHub" link="https://github.com/resilmesh2" description="Source code and repositories for Resilmesh projects" />
+		<Card title="Resilmesh Website" link="https://resilmesh.eu/" description="Official Resilmesh website" />
+	</ul>
+</div>

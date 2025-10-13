@@ -1,0 +1,12 @@
+---
+const { title, description, link } = Astro.props;
+---
+
+<a class="max-w-sm min-h-52 rounded-lg overflow-hidden shadow-md bg-resilmesh-blue hover:bg-resilmesh-blue/70 transition-colors ease-in-out cursor-pointer font-nunito" href={Astro.props.link || '/'}>
+  <div class="px-12 py-8">
+    <div class="text-2xl mb-2 font-bold text-resilmesh-light-blue">{Astro.props.title}</div>
+    <p class="text-xl text-resilmesh-white">
+      {Astro.props.description}
+    </p>
+  </div>
+</a>
