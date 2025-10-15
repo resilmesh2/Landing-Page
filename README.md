@@ -1,8 +1,14 @@
 # Landing-Page
-Simple landing page for Resilmesh - includes links to main components and other useful resources.
+Simple landing page for Resilmesh - cards with links to main components and other useful resources.
 
+Collection of components is stored in `src/data/entries.json`, their schema is defined in `src/content.config.ts`.
 
-## 🧞 Commands
+## Docker setup
+
+1. `docker build -t resilmesh-landing-page .`
+2. `docker run -p 8181:8181 resilmesh-landing-page`
+
+## 🧞 Supported commands
 
 All commands are run from the root of the project, from a terminal:
 
