@@ -1,0 +1,8 @@
+services:
+  resilmesh_sap_landing_page:
+    build:
+      context: .
+    ports:
+      - 8181:8181
+    networks:
+      - resilmesh_network
