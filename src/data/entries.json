@@ -10,14 +10,14 @@
         {
             "id": "wazuh",
             "title": "Wazuh",
-            "link": "http://localhost:443",
+            "link": "https://localhost:4433",
             "description": "Open source SIEM",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "nse",
             "title": "NSE",
-            "link": "https://localhost:3002",
+            "link": "http://localhost:4201",
             "description": "Provides a risk assessment status for the network as a whole and allows to drill down to examine risk",
             "icon": "mdi:network"
         },
@@ -30,15 +30,15 @@
         },
         {
             "id": "mm",
-            "title": "Mitigation Manager",
-            "link": "http://localhost:8002",
+            "title": "Mitigation Manager - Playbooks Tool",
+            "link": "https://localhost:3443",
             "description": "Mitigates Alerts, subscribes to specific NATS topic. Uses playbooks tool",
             "icon": "mdi:shield"
         },
         {
             "id": "temporal",
-            "title": "Temporal",
-            "link": "http://localhost:8000",
+            "title": "Temporal - Workflow Orchestrator",
+            "link": "http://localhost:8080",
             "description": "Temporal component",
             "icon": "simple-icons:temporal"
         },
@@ -59,9 +59,30 @@
         {
             "id": "isim-graphql",
             "title": "ISIM GraphQL",
-            "link": "http://localhost:4001",
+            "link": "http://localhost:4001/graphql",
             "description": "GraphQL API",
             "icon": "simple-icons:graphql"
+        },
+        {
+            "id": "misp-server",
+            "title": "Misp Server",
+            "link": "https://localhost:10443",
+            "description": "Misp Server",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "iob-cti-stix-visualization",
+            "title": "IoB CTI Stix Visualization",
+            "link": "http://localhost:9003/cti-stix-visualization/index.html",
+            "description": "IoB CTI Stix Visualization",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "iob-stix-modeler",
+            "title": "IoB Stix Modeler",
+            "link": "http://localhost:3400",
+            "description": "IoB Stix Modeler",
+            "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "resilmesh-docs",
