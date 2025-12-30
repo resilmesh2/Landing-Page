@@ -3,84 +3,84 @@
         {
             "id": "sacd",
             "title": "SACD",
-            "link": "http://localhost:4200",
+            "link": "http://51.92.10.245:4200",
             "description": "SACD dashboard and management interface",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "wazuh",
             "title": "Wazuh",
-            "link": "https://localhost:4433",
+            "link": "https://51.92.10.245:4433",
             "description": "Open source SIEM",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "nse",
             "title": "NSE",
-            "link": "http://localhost:4201",
+            "link": "http://51.92.10.245:4201",
             "description": "Provides a risk assessment status for the network as a whole and allows to drill down to examine risk",
             "icon": "mdi:network"
         },
         {
             "id": "ndr",
             "title": "NDR",
-            "link": "http://localhost:3000",
+            "link": "http://51.92.10.245:3000",
             "description": "Provides an anomaly detection and response capability for network traffic.",
             "icon": "material-symbols:crisis-alert-rounded"
         },
         {
             "id": "mm",
             "title": "Mitigation Manager - Playbooks Tool",
-            "link": "https://localhost:3443",
+            "link": "https://51.92.10.245:3443",
             "description": "Mitigates Alerts, subscribes to specific NATS topic. Uses playbooks tool",
             "icon": "mdi:shield"
         },
         {
             "id": "temporal",
             "title": "Temporal - Workflow Orchestrator",
-            "link": "http://localhost:8080",
+            "link": "http://51.92.10.245:8080",
             "description": "Temporal component",
             "icon": "simple-icons:temporal"
         },
         {
             "id": "neo4j",
             "title": "Neo4j",
-            "link": "http://localhost:7474",
+            "link": "http://51.92.10.245:7474",
             "description": "Neo4j graph database web UI",
             "icon": "simple-icons:neo4j"
         },
         {
             "id": "isim-rest-api",
             "title": "ISIM REST API",
-            "link": "http://localhost:8000",
+            "link": "http://51.92.10.245:8000",
             "description": "Handles data from the scans (bbdd), several API",
             "icon": "material-symbols:api-rounded"
         },
         {
             "id": "isim-graphql",
             "title": "ISIM GraphQL",
-            "link": "http://localhost:4001/graphql",
+            "link": "http://51.92.10.245:4001/graphql",
             "description": "GraphQL API",
             "icon": "simple-icons:graphql"
         },
         {
             "id": "misp-server",
             "title": "Misp Server",
-            "link": "https://localhost:10443",
+            "link": "https://51.92.10.245:10443",
             "description": "Misp Server",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "iob-cti-stix-visualization",
             "title": "IoB CTI Stix Visualization",
-            "link": "http://localhost:9003/cti-stix-visualization/index.html",
+            "link": "http://51.92.10.245:9003/cti-stix-visualization/index.html",
             "description": "IoB CTI Stix Visualization",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "iob-stix-modeler",
             "title": "IoB Stix Modeler",
-            "link": "http://localhost:3400",
+            "link": "http://51.92.10.245:3400",
             "description": "IoB Stix Modeler",
             "icon": "material-symbols:dashboard-rounded"
         },
