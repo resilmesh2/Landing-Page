@@ -1,5 +1,6 @@
 services:
   resilmesh_sap_landing_page:
+    container_name: resilmesh_sap_landing_page
     build:
       context: .
     ports:
