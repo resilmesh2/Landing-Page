@@ -1,17 +1,24 @@
 {
     "entries": [
         {
-            "id": "sacd",
-            "title": "SACD",
-            "link": "http://localhost:4200",
-            "description": "SACD dashboard and management interface",
-            "icon": "material-symbols:dashboard-rounded"
-        },
-        {
             "id": "wazuh",
             "title": "Wazuh",
             "link": "https://localhost:4433",
             "description": "Open source SIEM",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "misp-server",
+            "title": "Misp Server",
+            "link": "https://localhost:10443",
+            "description": "Misp Server",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "sacd",
+            "title": "SACD",
+            "link": "http://localhost:4200",
+            "description": "SACD dashboard and management interface",
             "icon": "material-symbols:dashboard-rounded"
         },
         {
@@ -50,6 +57,41 @@
             "icon": "simple-icons:neo4j"
         },
         {
+            "id": "casm",
+            "title": "CASM",
+            "link": "http://localhost:8000",
+            "description": "Django REST framework API for CASM",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "iob-attackflow-builder",
+            "title": "IOB AttackFlow Builder",
+            "link": "http://localhost:9080",
+            "description": "IOB AttackFlow Builder",
+            "icon": "material-symbols:dashboard-rounded"
+        },
+        {
+            "id": "dfir",
+            "title": "DFIR",
+            "link": "http://localhost:5005",
+            "description": "Digital Forensics and Incident Response platform",
+            "icon": "mdi:shield"
+        },
+        {
+            "id": "thf",
+            "title": "Threat Hunting Framework",
+            "link": "http://localhost:8501",
+            "description": "Antrophic Claude Sonnet 4 through LangChain interface",
+            "icon": "mdi:web"
+        },
+        {
+            "id": "ppcti",
+            "title": "PPCTI",
+            "link": "http://localhost:3100",
+            "description": "The anonimation component for CTI data",
+            "icon": "mdi:network"
+        },
+        {
             "id": "isim-rest-api",
             "title": "ISIM REST API",
             "link": "http://localhost:8000",
@@ -62,13 +104,6 @@
             "link": "http://localhost:4001/graphql",
             "description": "GraphQL API",
             "icon": "simple-icons:graphql"
-        },
-        {
-            "id": "misp-server",
-            "title": "Misp Server",
-            "link": "https://localhost:10443",
-            "description": "Misp Server",
-            "icon": "material-symbols:dashboard-rounded"
         },
         {
             "id": "iob-cti-stix-visualization",
