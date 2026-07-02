@@ -87,7 +87,7 @@
         {
             "id": "ppcti",
             "title": "PPCTI",
-            "link": "http://localhost:3100",
+            "link": "https://localhost:3100",
             "description": "The anonimation component for CTI data",
             "icon": "mdi:network"
         },
@@ -101,7 +101,7 @@
         {
             "id": "isim-graphql",
             "title": "ISIM GraphQL",
-            "link": "http://localhost:4001/graphql",
+            "link": "https://localhost:4443/graphql",
             "description": "GraphQL API",
             "icon": "simple-icons:graphql"
         },
